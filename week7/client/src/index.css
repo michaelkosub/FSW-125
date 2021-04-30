@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: darkslategray;
+}
+#heading {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 3.6em;
+  color: whitesmoke;
+  height: 280px;
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1525077672007-c032d9039468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+}
+#formHeading {
+  font-size: 1.6em;
+}
+#form {
+  margin: 20px;
+  border: lightslategray 2px solid;
+}
+#input {
+  margin:8px;
+  height: 30px;
+  width: 180px;
+  font-family: 'Open Sans', sans-serif;
+}
+#addBtn {
+  background-color: rgb(92, 137, 195);
+  border: none;
+  height: 30px;
+  margin-bottom: 20px;
+}
+#addBtn:hover {
+  cursor: pointer;
+  background-color: darkslategray;
+  color: white;
+}
+.deleteBtn {
+  background-color: rgb(92, 137, 195);
+  border: none;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+.deleteBtn:hover {
+  cursor: pointer;
+  background-color: darkslategray;
+  color: white;
+}
+.editBtn {
+  background-color: rgb(92, 137, 195);
+  border: none;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+.editBtn:hover {
+  cursor: pointer;
+  background-color: darkslategray;
+  color: white;
+}
+#closeBtn {
+  background-color: rgb(92, 137, 195);
+  border: none;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+#closeBtn:hover {
+  cursor: pointer;
+  background-color: darkslategray;
+  color: white;
+}
